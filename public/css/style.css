@@ -1,0 +1,324 @@
+body {
+    font-family: montserrat_hl;
+    color: #4C4C4C;
+}
+
+#top-row {
+    font-family: roboto_reg;
+    font-size: 0.9em;
+}
+
+nav {
+    font-family: roboto_reg;
+}
+
+h1, h4 {
+    font-family: montserrat_bold;
+}
+
+h2, h3 {
+    font-family: montserrat_light;
+}
+
+#subtitle{
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: large;
+    line-height: 1.8em;
+}
+
+p, ul {
+    font-family: roboto_reg;
+}
+
+nav a:link {
+    color: #4C4C4C;
+}
+
+.main_content h1{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.main_content h2{
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 20;
+}
+
+.card-body{
+    font-family: roboto_reg;
+}
+
+.php_tech{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: montserrat_light !important;
+    padding-top: 20;
+}
+
+.php_plugin{
+    font-family: roboto_reg;
+    padding-left: 60;
+}
+
+.center-block{
+    text-align: center;
+}
+
+button {
+    font-family: montserrat_bold;
+    padding: 10 20 10 20 !important;
+    color: white;
+}
+
+.php_plugin button{
+    padding: 10 40 10 40 !important;
+    color: #4C4C4C !important;
+}
+
+table.pricing {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.pricing td{
+    font-family: roboto_reg;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    padding: 10 0 10 0;
+    border: 1px solid #f3f3f3;
+}
+
+table.pricing:not(:last-child) td{
+    border-right: none;
+}
+
+#personal{
+    width: 100% !important;
+}
+
+#personal td{    
+    border: 1px solid #008fee;
+}
+
+#personal tr:nth-of-type(1), #personal tr:nth-of-type(2){
+    background-color: #008fee;
+    color: white;
+}
+
+#personal tr:nth-of-type(3){
+    background-color: #007FDE;
+    color: white;
+}
+
+#box{
+    float:left;
+    position: relative;
+    width: 25%;
+}
+
+/* common */
+.ribbon {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    }
+    .ribbon::before,
+    .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: ”;
+    display: block;
+    border: 5px solid #2980b9;
+    }
+    .ribbon span {
+    position: absolute;
+    display: block;
+    width: 220px;
+    padding: 10px 0;
+    background-color: #00B359;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font-family: montserrat_reg;
+    font-size: 0.8em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+    }
+    
+    /* top left*/
+    .ribbon-top-left {
+    top: -10px;
+    left: -10px;
+    }
+    .ribbon-top-left::before,
+    .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    }
+    .ribbon-top-left::before {
+    top: 0;
+    right: 0;
+    }
+    .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+    }
+    .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+    }
+
+.old_price{
+    font-family: montserrat_reg;
+}
+
+.new_price{
+    font-family: montserrat_bold;
+    font-size: 1.3em;
+    vertical-align: top;
+    padding-bottom: 10;
+}
+
+.old_price::before, .new_price::before{
+    font-family: montserrat_light;
+    content: 'Rp ';
+}
+
+.new_price::after{
+    font-family: montserrat_light;
+    content: '/ bln';
+}
+
+.old_price{
+    text-decoration: line-through;
+}
+
+.price_highlight{
+    font-size: 3em;
+    vertical-align: top;
+}
+
+table.performance {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-family: roboto_reg;
+}
+
+table.performance td {
+    border: 1px solid #F7F7F7;
+    padding: 10 10 10 20;
+    height: 40;
+    background: url('../images/green_check.jpeg') content-box no-repeat left center;
+}
+
+table.performance tr:nth-child(even){
+    background-color: #F7F7F7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15 0 0 0;
+}
+
+#include_hosting {
+    text-align: center;
+}
+
+#include_hosting h4, #include_hosting .col{
+    padding-top: 20;
+}
+
+#include_hosting img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#list_hosting {
+    font-family: montserrat_light;
+}
+
+li{
+    background: url('../images/green_check.jpeg')no-repeat left top;
+    padding-left: 30;
+    padding-bottom: 10;
+}
+
+#share{
+    background: #F7F7F7;
+    font-family: montserrat_reg;
+    vertical-align: middle;
+    padding-top: 20;
+}
+
+#help{
+    background: #00A2F3;
+    font-family: montserrat_reg;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    padding: 50 0 50 0;
+    color: white;
+}
+
+small{
+    font-family: montserrat_light;
+    font-size: x-small;
+}
+
+footer{
+    background-color: #303030;
+    font-family: roboto_light;
+    color: #E2E2E2;
+    font-size: 0.9em;
+    line-height: 1.8;
+}
+
+footer .row{
+    padding-top: 20;
+}
+
+footer h5{
+    font-family: roboto_bold;
+    color: #8E8E8E;
+    font-size: 1em;
+    padding-bottom: 10;
+}
+
+.footer_caption{
+    font-family: roboto_hl !important;
+}
+
+footer a{
+    text-decoration: none;
+    color: E2E2E2;
+}
+
+.input-group{
+    padding: 5;
+    background-color: white;
+}
+
+.input-group .form-control{
+    border: 0;
+}
+
+.input-group button{
+    font-family: roboto_hl;
+    font-size: medium;
+    padding: 5 !important;
+}
+
+#social_media a{
+    padding-right: 20;
+}

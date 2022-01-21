@@ -1,0 +1,20 @@
+[{
+    "paket":"Bayi",
+    "price_old":"19.900",
+    "price_new":"14.900"
+},
+{
+    "paket":"Pelajar",
+    "price_old":"46.900",
+    "price_new":"23.450"
+},
+{
+    "paket":"Personal",
+    "price_old":"58.900",
+    "price_new":"38.900"
+},
+{
+    "paket":"Bisnis",
+    "price_old":"109.900",
+    "price_new":"65.900"
+}]
